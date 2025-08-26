@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -15,8 +16,12 @@
     <!-- header -->
     <header>
       <!-- nav -->
-      <nav class="bg-white flex flex-row items-center justify-between sm:p-4 p-2">
-        <div class="logo-text flex sm:flex-row sm:text-left text-center flex-col items-center gap-4">
+      <nav
+        class="bg-white flex flex-row items-center justify-between sm:p-4 p-2"
+      >
+        <div
+          class="logo-text flex sm:flex-row sm:text-left text-center flex-col items-center gap-4"
+        >
           <div class="logo w-16">
             <img src="assets/logo.png" alt="" />
           </div>
@@ -26,29 +31,49 @@
           </div>
         </div>
         <div class="menu flex sm:flex-row flex-col items-center gap-5">
-            <!-- menu 1 -->
-            <div id="heart" class="heart flex flex-row items-center justify-around bg-sky-50 w-24 gap-3 px-3 py-2 rounded-full">
-                <h1 class="font-semibold text-lg">0</h1>
-                <div class="mimg w-8 ">
-                    <img src="assets/heart.png" alt="">
-                </div>
+          <!-- menu 1 -->
+          <div
+            id="heart"
+            class="heart flex flex-row items-center justify-around bg-sky-50 w-24 gap-3 px-3 py-2 rounded-full"
+          >
+            <h1 class="font-semibold text-lg">0</h1>
+            <div class="mimg w-8">
+              <img src="assets/heart.png" alt="" />
             </div>
-            <!-- menu 2 -->
-            <div id="coin" class="heart flex flex-row items-center justify-around bg-sky-50 w-24 gap-3 px-3 py-2 rounded-full">
-                <h1 class="font-semibold text-lg">100</h1>
-                <div class="mimg w-8 ">
-                    <img src="assets/coin.png" alt="">
-                </div>
+          </div>
+          <!-- menu 2 -->
+          <div
+            id="coin"
+            class="heart flex flex-row items-center justify-around bg-sky-50 w-24 gap-3 px-3 py-2 rounded-full"
+          >
+            <h1 class="font-semibold text-lg">100</h1>
+            <div class="mimg w-8">
+              <img src="assets/coin.png" alt="" />
             </div>
-            <!-- menu 3 -->
-            <div id="copy" class="heart flex flex-row items-center justify-around bg-[#00A63E] text-white w-24 gap-3 px-3 py-2 rounded-full">
-                <h1 class="font-semibold text-lg">0</h1>
-                <h1 class="font-semibold text-lg">Copy</h1>
-            </div>
+          </div>
+          <!-- menu 3 -->
+          <div
+            id="copy"
+            class="heart flex flex-row items-center justify-around bg-[#00A63E] text-white w-24 gap-3 px-3 py-2 rounded-full"
+          >
+            <h1 class="font-semibold text-lg">0</h1>
+            <h1 class="font-semibold text-lg">Copy</h1>
+          </div>
         </div>
       </nav>
       <!-- hero -->
-
+      <div
+        class="hero bg-gradient-to-r from-emerald-950 via-emerald-800 to-emerald-950 sm:w-dvw sm:max-h-80 w-full h-auto flex flex-col items-center justify-center text-center gap-4 sm:px-10 sm:py-3 px-5 py-2 text-white"
+      >
+        <div class="hero-img w-24">
+          <img src="assets/logo-dark.png" alt="" />
+        </div>
+        <h1 class="text-4xl font-semibold">জরুরি সেবা ডিরেক্টরি</h1>
+        <p class="text-xl sm:font-semibold font-medium my-2">
+          Government Emergency Services at Your Fingertip - A Project by
+          Government of the People's Republic of Bangladesh
+        </p>
+      </div>
     </header>
   </body>
 </html>
